@@ -1,0 +1,66 @@
+body {
+	background: orange;
+}
+
+.gameWelcome {
+	position: fixed;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	color: white;
+	text-align: center;
+}
+
+.gameWelcome button {
+	margin-top: 5px;
+	background: red;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	width: 250px;
+	border: 1px solid orange;
+	transition: all 1s;
+}
+
+.gameWelcome button: hover {
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+.gameDashboard {
+	position: fixed;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	color: white;
+	text-align: center;
+	display: none;
+}
+
+.countDown {
+	position: fixed;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	color: white;
+	text-align: center;
+	display: none;
+	font-size: 72px;
+}
+
+.gameDisplay tbody tr td {
+	padding: 10px;
+	background: white;
+
+}
+
+img {
+	width: 100px; 
+	height: 100px;
+}
+
+.playAgain {
+	display: none;
+}
